@@ -1,0 +1,18 @@
+true postives = 6
+true neg = 6
+fasle postives = 0
+fasle neg = 3 
+
+acuracy model = 6 + 6 / 6 + 6 + 0 + 3  == 80 %
+
+pressions = 6 / 6 + 0  == 100 
+
+sensetivity =  6 / 6 + 0 == 100
+
+
+sepcifity = 6 / 6 + 0 == 100 
+
+Feature Seclected 3
+F1 Don2&Acc2     r : 1.1
+F2 Hyd     		r : 1.3
+F3 Acc2			r : 1
