@@ -1,74 +1,87 @@
-# Pharmacophore_Modeling
-Pharmacophore_Modeling step by step Guide through MOE.
+# 🧬 Pharmacophore Modeling for hERG Inhibitors
 
-- Merge activity values:
-- Open **DBV > File > Merge...**
-- Merge the packed database with the original database (used as Database 2).
-- Ensure *New Database* is deactivated.
+Welcome! This repository contains a step-by-step computational drug design activity where we developed **Pharmacophore models** to evaluate the **hERG liability** of various small molecule inhibitors. This project is ideal for beginners in **bioinformatics, cheminformatics, and drug discovery** who want a hands-on introduction to modeling using **MOE (Molecular Operating Environment)**.
 
 ---
 
-## 🧪 Step 2: Building the Pharmacophore Model
+## 🧠 Project Purpose
 
-- Use an active compound from the original database as a template.
-- Hide hydrogens using **MOE > Render > Hide > Hydrogens**.
-- Open **Pharmacophore Query Editor**:
-- File > New > Pharmacophore Query...
-- Change Ligand Annotation to *Long* for feature labels.
-- **Create Features**:
-- Select annotation points and create features.
-- Adjust feature radius and rendering as needed.
-- **Search Settings**:
-- Load the packed conformational database.
-- Set *Hit Entries: Select* and *Results: No Output*.
-- Run the search to identify matching conformers.
-
-### 🛠 Troubleshooting Feature Matching
-
-- **Too few hits**:
-- Increase feature radius
-- Reduce number of features (use *Ignore* or *Enable Partial Match*)
-- **Too many hits**:
-- Decrease radius
-- Add more selective features
+This was developed as a **class activity** for the Computational Drug Design course during my MS Bioinformatics at NUST. The main goal was to:
+- Learn how to build, visualize, and evaluate pharmacophore models.
+- Apply real-world screening techniques to predict the hERG risk of novel compounds.
+- Practice using tools like MOE and managing scientific workflows.
 
 ---
 
-## 📊 Step 3: Model Comparison
+## 🔧 Tools & Technologies Used
 
-- In **Pharmacophore Search**, set *Results: Conformations* and configure *Code* and *EC50*.
-- Sort conformations using **DBV > Compute > Sort**:
-- Priority 1: mseq, Priority 2: rmsd
-- Select best entries:
-- Use *Select Unique Entries* based on *Code* or *mseq*
-- Hide unselected entries
-- Visualize top conformations in the MOE viewer.
+- 🧪 **MOE (Molecular Operating Environment)** – Pharmacophore building & screening
+- 📁 **.mdb/.ph4** data formats – Used for molecular databases and models
+- 🧬 **hERG inhibitor dataset** – Provided as a part of the coursework
+- 🖼️ **Graphical outputs** – Screenshots and images for model and result visualization
 
 ---
 
-## 🔎 Step 4: Predicting hERG Liability
+## 📋 Summary of the Workflow
 
-- Use the final pharmacophore model to screen unknown compounds.
-- Record model input:
-- Template compound
-- Features used and their distances (via **MOE > Edit > Measure > Distances**)
-- Evaluate model's ability to distinguish active vs inactive compounds
-- Compare predictions for structurally similar compounds
+### 🧱 Step 1: Conformer Database Creation
+- Import structures, pack conformations, and merge activity data.
+
+### 🧪 Step 2: Pharmacophore Model Development
+- Choose template compounds and define features.
+- Search conformation databases to test model coverage.
+
+### 📊 Step 3: Model Evaluation
+- Rank conformations by similarity and quality (rmsd, mseq).
+- Select optimal models based on accuracy and predicted binding.
+
+### 🔍 Step 4: Prediction
+- Screen unknown data and evaluate potential hERG liability.
+- Interpret results using visual analysis and measured distances.
 
 ---
 
-## 🧾 Outputs
+## 📸 Screenshots & Visuals
 
-- Pharmacophore model file (.ph4)
-- Visualizations: feature maps, conformations
-- Summary table with model performance and selected features
-- Prediction results on unknown dataset
+| MOE Workflow | Pharmacophore Hit | Final Screening |
+|--------------|-------------------|-----------------|
+| ![workflow]() | ![hit](ph4_hit.png) | ![screen](screen_results.png) |
+
 
 ---
 
-## Tools Used
+## 📦 Folder Contents
 
-- MOE (Molecular Operating Environment)
-- Data files: training, validation, and unknown compound sets
-"""
+| File/Folder | Description |
+|-------------|-------------|
+| `Hazrat_maghaz.ph4` | Final pharmacophore model |
+| `*.mdb` files | MOE molecular database files |
+| `hazrat_maghaz.png` | Screenshot of model features |
+| `details.txt` | Model Performence |
+
+---
+
+## 🤝 Contact Me
+
+If you're a student, researcher, or enthusiast who wants to learn or contribute, feel free to reach out!
+
+📧 Email: `maaz28608@gmail.com`  
+🧬 GitHub: [HazratMaghaz](https://github.com/HazratMaghaz)
+
+I’d be happy to help you get started with MOE or Pharmacophore modeling.
+
+---
+
+## 📜 License
+
+This project is shared under the **MIT License**. You are free to use, modify, and share it — just give proper credit.
+
+---
+
+## 🙌 Acknowledgements
+
+- Prof. Ishrat Jabeen – Course Instructor
+- Computational Drug Design Lab – NUST
+
+---
 
