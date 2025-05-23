@@ -43,9 +43,9 @@ This was developed as a **class activity** for the Computational Drug Design cou
 
 ## 📸 Screenshots & Visuals
 
-| MOE Workflow | Pharmacophore Hit | Final Screening |
+| Model Features | Pharmacophore Hit | hits in screening |
 |--------------|-------------------|-----------------|
-| ![workflow]() | ![hit](ph4_hit.png) | ![screen](screen_results.png) |
+| ![Model Features](hazrat_maghaz.png) | ![hit](Hits_in_Packed.jpg) | ![screen](hits_in_screening.mdb.jpg) |
 
 
 ---
