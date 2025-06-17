@@ -65,8 +65,6 @@ This was developed as a **class activity** for the Computational Drug Design cou
 
 If you're a student, researcher, or enthusiast who wants to learn or contribute, feel free to reach out!
 
-📧 Email: `maaz28608@gmail.com`  
-🧬 GitHub: [HazratMaghaz](https://github.com/HazratMaghaz)
 
 I’d be happy to help you get started with MOE or Pharmacophore modeling.
 
