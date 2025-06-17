@@ -77,6 +77,8 @@ This project is shared under the **MIT License**. You are free to use, modify, a
 ---
 
 [![Email](https://img.shields.io/badge/Email-maaz28608@gmail.com-blue?style=for-the-badge&logo=gmail)](mailto:maaz28608@gmail.com)
+[![Fiverr](https://img.shields.io/badge/Fiverr-Hire%20Me-green?style=for-the-badge&logo=fiverr)](https://www.fiverr.com/dromics05)
+
 
 ## 🙌 Acknowledgements
 
