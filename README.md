@@ -76,6 +76,8 @@ This project is shared under the **MIT License**. You are free to use, modify, a
 
 ---
 
+[![Email](https://img.shields.io/badge/Email-maaz28608@gmail.com-blue?style=for-the-badge&logo=gmail)](mailto:maaz28608@gmail.com)
+
 ## 🙌 Acknowledgements
 
 - Prof. Ishrat Jabeen – Course Instructor
